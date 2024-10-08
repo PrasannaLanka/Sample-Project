@@ -1,0 +1,117 @@
+/* Set the background color for the entire application */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #A7C7E7; /* Light blue background */
+}
+
+/* Centering the login form */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Styling for the login form */
+.login-form {
+  background-color: #4b9cd3; /* Uniform blue background */
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the form header */
+.form-header {
+  background-color: #4b9cd3; /* Uniform color for header */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styling the inputs */
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: white; /* Keep labels white for contrast */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Styling the buttons */
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0056a6; /* Blue background for Login button */
+  color: white; /* White text for contrast */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  background-color: #004494; /* Darker shade on hover for Login */
+}
+
+/* Sign Up button styling */
+.login-form .signup-button {
+  background-color: white; /* White background for Sign Up button */
+  color: #0056a6; /* Blue text for Sign Up */
+  border: 2px solid #0056a6; /* Blue border for Sign Up */
+}
+
+.login-form .signup-button:hover {
+  background-color: #e6e6e6; /* Slightly darker white on hover */
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Success message styling */
+.success-message {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Styling for the toggle between login and sign-up */
+.toggle-text {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.toggle-text button {
+  background: none;
+  border: none;
+  color: white; /* Yellow for contrast */
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.toggle-text button:hover {
+  color: white; /* Darker yellow on hover */
+}
